@@ -1,0 +1,29 @@
+body {
+  background-color:#FFC0CB;
+  margin: 0 10%;
+  font-family: sans-serif;
+  }
+
+hr.new5 {
+  border: 10px solid #403033;
+  border-radius: 5px;
+}
+
+hr.new4 {
+  border: 4px solid #FFC0CB;
+  border-radius: 5px;
+}
+
+ul hr.new3{
+  border: 3px dashed #FFC0CB;
+  border-radius: 5px;
+}
+
+.bg-color{
+	background-color: #201819;
+}
+
+.color-text{
+	color: #FFC0CB;
+}
+
