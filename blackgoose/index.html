@@ -1,81 +1,65 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">	
-	<title>Black Goose Bistro</title>
-	<style>
-
-		body {
-			background-color: #FFC0CB;
-			margin: 0 10%;
-			font-family: sans-serif;
-		}
-
-
-		h1 {
-			text-align: center;
-			font-family: serif;
-			font-weight: normal;
-			text-transform: uppercase;
-			border-bottom: 1px solid #57b1dc;
-			margin-top: 30px;
-		}
-
-
-		h2 {
-			color: #FFFFFF;
-			font-size: 1em;
-		}
-
-	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>The Blackgoose</title>
 </head>
-
 <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<header>
+					<h1><img src="img/blackgoose.png" alt="logo"><br>Black Goose Bistro</h1><hr class="new5">
+				</header>
 
-	<h1><img src="img/blackgoose.png" alt="logo"><br>Black Goose Bistro</h1>
+				<nav class="nav nav-pills nav-justified bg-color" style="border-radius: 100px 100px 100px 100px;">
+				  	<a class="nav-item nav-link color-text" href="menu.html">Menu</a>
+				  	<a class="nav-item nav-link color-text" href="about.html">About</a>
+				  	<a class="nav-item nav-link color-text" href="blog.html">Blog</a>
+				  	<a class="nav-item nav-link color-text" href="#">Contact</a>
+				</nav>
 
-	<ul>
-		<h1><a href="index.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="about.html">About</a>
-			<a href="bgnews.html">Blog</a>
-			<a href="contact.html">Contact</a>
-		</h1>
-	</ul>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-md-8">
+				<section>
 
-	<br>
-	<br>
+					<article class="bg-color-section">
+						<h2 class="color-text ml-5 mr-5">The Restaurant</h2>
+						<hr class="new3 ml-5 mr-5">
+						<p class="color-text ml-5 mr-5">The Black Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients.</p>
+					</article>
+					<br>
+					<br>
+					<article class="bg-color-section">
+						<h2 class="color-text ml-5 mr-5">Catering</h2>
+						<hr class="new3 ml-5 mr-5">
+						<p class="color-text ml-5 mr-5">You have fun. <em>We'll handle the cooking.</em> Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers.</p>
+					</article>
+				</section>
+			</div>
 
-	<article>
-
-		<section>
-			<h2>The Restaurant</h2>
-
-			<p>The Black Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients.</p>
-		</section>
-<br>
-<br>
-
-		<section>
-			<h2>Catering</h2>
-
-			<p>You have fun. <em>We'll handle the cooking.</em> Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers.</p>
-		</section>
-
-<br>
-<br>
-
-		<section>
-			<h2>Location and Hours</h2>
-			<p>Seekonk, Massachusetts;<br>
-			Monday through Thursday 11am to 9pm; <br>Friday and Saturday, 11am to midnight</p>
-		</section>
-	</article>
+			<div class="col-md-4">
+				<h2>Location and Hours</h2>
+				<p>Seekonk, Massachusetts;<br>
+					Monday through Thursday ----- 11am to 9pm; <br>Friday and Saturday ----- 11am to midnight</p>
+				<br>
+				<h3> Click here to make your order! </h3>
+				<a href="pizza_final.html"><img src="img/order.gif"></a>
+			</div>
+		</div>
+	</div>
 	
-	<center>	
-		<h3> Click here to make your order! </h3>
-		<a href="pizza_final.html"><img src="img/order.gif"></a>
-	</center>
+	<!--JavaScript-->
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/jquery.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </body>
 </html>

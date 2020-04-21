@@ -2,60 +2,71 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-
-	<style>
-
-		body {
-			background-color: #FFC0CB;
-			margin: 0 10%;
-			font-family: sans-serif;
-		}
-
-
-		h1 {
-			text-align: center;
-			font-family: serif;
-			font-weight: normal;
-			text-transform: uppercase;
-			border-bottom: 1px solid #57b1dc;
-			margin-top: 30px;
-		}
-
-
-		h2 {
-			color: #FFFFFF;
-			font-size: 1em;
-		}
-
-		ul li{
-
-		}
-	</style>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>The Blackgoose</title>
 </head>
 <body>
-	<center>
-		<img src="img/title.gif"><hr>
-	</center>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<header>
+					<h1><img src="img/blackgoose.png" alt="logo"><br>Black Goose Bistro</h1><hr class="new5">
+				</header>
 
-	<ul>
-	    <li><a href="https://abrilgauthier.github.io/FID/jenskitchen/tapenade.html">Tapenade (Olive Spread)</a></li>
-		<li><a href="https://abrilgauthier.github.io/FID/jenskitchen/salmon.html">Garlic Salmon</a></li>
-		<li><a href="https://abrilgauthier.github.io/FID/jenskitchen/pasta.html">Pastas</a></li>
-	</ul>
+				<nav class="nav nav-pills nav-justified bg-color" style="border-radius: 100px 100px 100px 100px;">
+				  	<a class="nav-item nav-link color-text" href="index.html">Home</a>
+				  	<a class="nav-item nav-link color-text" href="about.html">About</a>
+				  	<a class="nav-item nav-link color-text" href="blog.html">Blog</a>
+				  	<a class="nav-item nav-link color-text" href="#">Contact</a>
+				</nav>
 
-	
-	<h1>Good Food on the Web</h1><hr>
+			</div>
+		</div>
 
-	<ul>
-		<li><a href="https://www.foodnetwork.com/" target="_blank">The Food Network</li></a>
-		<li><a href="https://www.epicurious.com/" target="_blank">Epicurious </a></li>
-	</ul>
+		<div class="row">
+			<div class="col-md-12">
+				<br>
+				<h1>Our Menu.</h1>
+				<br>
+			</div>
+		</div>
 
-	<p><small>Copyright 2018, Jennifer Robbins</small></p>
-	</center>
+		<div class="row">
+			<div class="col-md-3">
+				<figure class="figure">
+				  	<a href="couscous.html"><img src="img/couscous.jpg" class="figure-img img-fluid rounded" width="650" height="425"></a>
+				  	<figcaption class="figure-caption">our Couscous with Peas and Mint</figcaption>
+				</figure>
+			</div>
 
+			<div class="col-md-3">
+				<figure class="figure">
+				  	<a href="linguine.html"><img src="img/linguine.jpg" class="figure-img img-fluid rounded" width="650" height="425"></a>
+				  	<figcaption class="figure-caption">our Linguine with Clam Sauce.</figcaption>
+				</figure>
+			</div>
 
-	<br><a href="index.html"> Back to Homepage</a>
+			<div class="col-md-3">
+				<figure class="figure">
+					<a href="tapenade.html"><img src="img/tapenade.jpeg" class="figure-img img-fluid rounded" width="650" height="425"></a>
+					<figcaption class="figure-caption">our Tapenade (Olive Spread).</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-md-3">
+				<figure class="figure">
+					<a href="salmon.html"><img src="img/garlic_salmon.jpg" class="figure-img img-fluid rounded" width="650" height="425"></a>
+					<figcaption class="figure-caption">our Garlic Salmon.</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+	<!--JavaScript-->
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/jquery.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </body>
 </html>
